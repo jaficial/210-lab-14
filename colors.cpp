@@ -23,10 +23,10 @@ public:
 	void setred_value(int red) {red_value = red;}
 	
 	int getgreen_value() {return green_value;}
-	void setgreen_value() {int green} {green_value = green;}
+	void setgreen_value(int green) {green_value = green;}
 
 	int getblue_value() {return blue_value;}
-	void setblue_value() {int blue} {blue_value = blue;}
+	void setblue_value(int blue) {blue_value = blue;}
 
 	void print() { // NOTE: COME BACK TO THIS FUNCTION TO FIX OUTPUT OF VALUES
 		cout << "RED VALUE: " << red_value << endl;
@@ -38,17 +38,24 @@ public:
 void print(color);
 
 int main() {
+
 	color brown;
 	brown.setred_value(150);
 	brown.setgreen_value(75);
 	brown.setblue_value(0);
+	brown.print();
+	print(brown);
 
 	color wine;
 	wine.setred_value(114);
 	wine.setgreen_value(47);
 	wine.setblue_value(55);
 
-
+	color forrest_green;
+	forrest_green.setred_value(20);
+	forrest_green.setgreen_value(142);
+	forrest_green.setblue_value(20);
+	
 
 	return 0;
 }
