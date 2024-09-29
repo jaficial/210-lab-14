@@ -19,10 +19,17 @@ private:
 	int green_value;
 	int blue_value;
 public:
-	int getred_value() {return red_value;}
-	void setred_value(double red) {red_value = red;}
+	int getred_value() {return red_value;} // 
+	void setred_value(int red) {red_value = red;}
 	
 	int getgreen_value() {return green_value;}
-	void setgreen_value() {return green}
+	void setgreen_value() {int green} {green_value = green;}
+
+	int getblue_value() {return blue_value;}
+	void setblue_value() {int blue} {blue_value = blue;}
+
+	void print() {
+		cout << 
+	}
 };
 
