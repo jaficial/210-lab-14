@@ -38,7 +38,17 @@ public:
 void print(color);
 
 int main() {
-	
+	color brown;
+	brown.setred_value(150);
+	brown.setgreen_value(75);
+	brown.setblue_value(0);
+
+	color wine;
+	wine.setred_value(114);
+	wine.setgreen_value(47);
+	wine.setblue_value(55);
+
+
 
 	return 0;
 }
