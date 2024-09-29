@@ -28,8 +28,18 @@ public:
 	int getblue_value() {return blue_value;}
 	void setblue_value() {int blue} {blue_value = blue;}
 
-	void print() {
-		cout << 
+	void print() { // NOTE: COME BACK TO THIS FUNCTION TO FIX OUTPUT OF VALUES
+		cout << "RED VALUE: " << red_value << endl;
+		cout << "GREEN VALUE: " << green_value << endl;
+		cout << "BLUE VALUE " << blue_value << endl;
 	}
 };
+
+void print(color);
+
+int main() {
+	
+
+	return 0;
+}
 
