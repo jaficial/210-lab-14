@@ -39,7 +39,7 @@ public:
 		cout << "RGB Values for " << color_name << endl;
 		cout << setw(15) << "RED VALUE: " << red_value << endl;
 		cout << setw(15) << "GREEN VALUE: " << green_value << endl;
-		cout << setw(15) << "BLUE VALUE " << blue_value << endl;
+		cout << setw(15) << "BLUE VALUE: " << blue_value << endl;
 	}
 };
 
