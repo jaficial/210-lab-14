@@ -37,6 +37,7 @@ public:
 
 void print(color);
 
+// NOTE: FUNCTION IS NOW PRINTING
 int main() {
 
 	color brown;
@@ -44,18 +45,18 @@ int main() {
 	brown.setgreen_value(75);
 	brown.setblue_value(0);
 	brown.print();
-	print(brown);
 
 	color wine;
 	wine.setred_value(114);
 	wine.setgreen_value(47);
 	wine.setblue_value(55);
+	wine.print();
 
 	color forrest_green;
 	forrest_green.setred_value(20);
 	forrest_green.setgreen_value(142);
 	forrest_green.setblue_value(20);
-	
+	forrest_green.print();
 
 	return 0;
 }
